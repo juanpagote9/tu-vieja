@@ -1,0 +1,76 @@
+
+body{
+    background: black;
+}
+
+section{
+    width: 90%;
+    max-width: 1600px;
+    height: 700%;
+    border: 1px solid #ffffff ;
+    margin: 50px;
+}
+
+#fila{
+    width: 100%;
+    display: flex;
+
+}
+
+#foto{
+    width: 50%;
+    padding-top: 110px;
+}
+
+#info{
+    width: 65%;
+}
+
+p{
+    color: #ffffff;
+    font-family: "fugaz one", cursive;
+}
+h1{
+    width: 60%;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "fugaz one", cursive;
+
+
+}
+h2{
+    color: #00ff95;
+    font-size: 32px ;
+    font-weight: 700;
+    font-family: "fugaz one", cursive;
+}
+
+#info #detalle{
+    width: 20%;
+    height: 4px;
+    background: #00ff95;
+    
+}
+#info article{
+    border: 3px solid rgb(0, 255, 170);
+    width: 90%;
+
+}
+#info article ul li{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "fugaz one", cursive;
+    width: 35%;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+#info #redes{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#info #redes a{
+    margin: 0 30px;
+}
